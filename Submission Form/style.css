@@ -1,0 +1,33 @@
+body{
+    background: rgb(211, 234, 251); /* I changed the color from lightblue to this because the light blue was too dark of a background*/
+}
+.main{
+    margin: 0px auto;
+    width: 900px; /* I changed the max width from 500px to 900px because the orginal width was too small*/
+    height: 1200px; /* I changed the max height from 800px to 1200px because the original height was too short*/
+    box-shadow: 5px 5px 20px; /*I changed the blur radius to 20px because 10px was too dark and not blurred enough*/
+    background: white;
+}
+.textbox{
+    margin:0px 100px;
+}
+h1{
+    font-family: 'Gill Sans', sans-serif;
+    padding:60px 20px 10px;
+}
+h2{
+    padding:20px 20px 10px;
+    font-family:'Gill Sans', sans-serif;
+}
+input{
+    margin: 0px 0px 0px 20px;
+    display:block;
+    
+}
+button{
+    float:right;
+    padding:10px 20px; 
+    font-family: 'Gill Sans', sans-serif;
+    border-radius:30px; /*I changed the border radius from 10px to 30px because 20px make the submit button too square*/
+    border:black solid 2px;
+}
