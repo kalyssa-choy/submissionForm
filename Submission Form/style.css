@@ -2,32 +2,43 @@ body{
     background: rgb(211, 234, 251); /* I changed the color from lightblue to this because the light blue was too dark of a background*/
 }
 .main{
-    margin: 0px auto;
+    margin: 0px auto; /*changed to center the div*/
     width: 900px; /* I changed the max width from 500px to 900px because the orginal width was too small*/
     height: 1200px; /* I changed the max height from 800px to 1200px because the original height was too short*/
     box-shadow: 5px 5px 20px; /*I changed the blur radius to 20px because 10px was too dark and not blurred enough*/
     background: white;
 }
 .textbox{
-    margin:0px 100px;
+    margin:0px 100px; /*added a margin to align it to the left, but not too far over*/
 }
 h1{
-    font-family: 'Gill Sans', sans-serif;
-    padding:60px 20px 10px;
+    font-family: "Gill Sans";
+    padding:90px 20px 10px; /*I added padding to the header to give it more space in the div*/
 }
-h2{
-    padding:20px 20px 10px;
-    font-family:'Gill Sans', sans-serif;
+
+/*I changed the margin on the top to give more space between categories. 
+I changed the margin from 10px to 20px to align it with the header. I 
+changed the margin on the bottom to keep the input close to the header*/
+h3{
+    margin: 50px 20px 10px; 
+    font-family: "Gill Sans";
 }
 input{
-    margin: 0px 0px 0px 20px;
-    display:block;
+    margin: 20px; /*I changed the margin to 20px to align it with the headers */
+    display:block; /*I made it a block element so that the submit button would not be on the same level as the last input*/
+    /*I got rid of styling the border since it looked too thick with styles*/
     
 }
 button{
     float:right;
-    padding:10px 20px; 
-    font-family: 'Gill Sans', sans-serif;
-    border-radius:30px; /*I changed the border radius from 10px to 30px because 20px make the submit button too square*/
-    border:black solid 2px;
+    padding:10px 20px; /*I changed the padding for the top and bottom from 20x to 10px because the submit button was too tall*/
+    font-family: "Gill Sans";
+    border-radius:30px; /*I changed the border radius from 10px to 30px because 10px make the submit button too square*/
+    border:black solid 1px; /*I changed the border from 2px to 1px because it was too thick before*/
+    background:none; /*I removed the background to make it match the rest of the form better*/
+}
+
+/*Added this declaration block to allow users to see if they submited the form clearly*/
+button:active{
+    background:#a7d5f2; 
 }
